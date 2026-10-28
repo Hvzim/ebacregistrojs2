@@ -1,0 +1,23 @@
+PROJETO — MÓDULO 9: CRUD PARCIAL COM CRUDCRUD
+
+Arquivos para entrega:
+- index.html
+- scripts.js
+- styles.css (opcional)
+
+ANTES DE EXECUTAR
+1. Acesse https://crudcrud.com/ e gere um endpoint/token novo.
+2. Abra scripts.js e substitua o valor de API_URL pela URL gerada, usando /clientes no final.
+   Exemplo: https://crudcrud.com/api/SEU_TOKEN/clientes
+3. Salve os arquivos e abra index.html com o Live Server do VS Code.
+
+O projeto implementa:
+- GET: carrega e lista os clientes da API.
+- POST: envia nome e e-mail para cadastrar um cliente.
+- DELETE: exclui da API o cliente escolhido.
+
+Observações:
+- O CrudCrud tem limite de tempo/uso para endpoints gratuitos; gere outro endpoint se o atual expirar.
+- A lista é carregada novamente da API quando a página é aberta.
+- O console do navegador (F12 > Console) mostra informações úteis para depuração.
+- Para a entrega, publique os arquivos index.html, scripts.js e styles.css em um repositório público no GitHub e envie o link.
